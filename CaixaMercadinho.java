@@ -38,7 +38,7 @@ public class CaixaMercadinho {
 				System.out.println("Troco: R$ " + (din - soma) + "\n");
 				System.out.println("Obrigado pela preferencia! Ate a proxima :)");
 
-				soma = 0;
+				soma = 0; //soma recebe zero para que uma nova compra possa ser efetuada
 
 			} else {
 				sair = true;
